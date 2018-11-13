@@ -6,6 +6,16 @@ Team::Team()
 {
 }
 
+string Team::GetName()
+{
+	return string();
+}
+
+string Team::GetAbbreviation()
+{
+	return string();
+}
+
 Team::~Team()
 {
 }
