@@ -3,6 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include <string>
+
+using namespace std;
 
 /**
  * 
@@ -18,10 +21,11 @@ private:
 	int coord;			// Coordination : Resistance to injury
 	int age;			// Time until retirement
 	// int powerup;		//TODO: implement later
+	int facialFeat;		// Value between -1 and 1 to randomly generate facial features
 
 	//cosmetic attributes
-	std::string name;
-	std::string desc;	// Player description
+	string name;
+	string desc;	// Player description
 
 	void setHeight();
 	void setStrength();
@@ -30,6 +34,7 @@ private:
 	void setAccuracy();
 	void setCoord();
 	void setAge();
+	void setFacial();
 
 	void setName();
 	void setDesc();
@@ -45,7 +50,8 @@ public:
 	int getAccuracy();
 	int getCoord();
 	int getAge();
+	int getFacial();
 
-	std::string getName();
-	std::string getDesc();
+	string getName();
+	string getDesc();
 };
