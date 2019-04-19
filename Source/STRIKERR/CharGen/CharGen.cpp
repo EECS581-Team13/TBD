@@ -50,28 +50,37 @@ void CharGen::setDesc() {
 }
 
 int CharGen::getHeight() {
+	return 0;
 }
 
 int CharGen::getStength() {
+	return 0;
 }
 
 int CharGen::getGrit() {
+	return 0;
 }
 
 int CharGen::getEndurance() {
+	return 0;
 }
 
 int CharGen::getAccuracy() {
+	return 0;
 }
 
 int CharGen::getCoord() {
+	return 0;
 }
 
 int CharGen::getAge() {
+	return 0;
 }
 
 std::string CharGen::getName() {
+	return "";
 }
 
 std::string CharGen::getDesc() {
+	return "";
 }
