@@ -1,2 +1,3 @@
 # STRIKERR
-TBD
+
+See project [homepage](https://strikerr.bensokol.com) for more information.
